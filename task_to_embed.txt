@@ -1,0 +1,21 @@
+A1. Install a specified software package (if necessary) and execute a provided script with a given argument to generate required data files for subsequent tasks.
+A2. Format the contents of a specified file using a particular formatting tool, ensuring the file is updated in-place.
+A3. Analyze a list of dates from a file to count occurrences of a specific weekday, and write the resulting count to another file.
+A4. Sort an array of contact information from a file by specified fields, and save the sorted array to a new file.
+A5. Retrieve the x number of lines from each of the most recent log files in a directory, ordered from most recent to least recent, and write these lines to a specified output file.
+A6. Identify all files with a specific extension in a directory. For each file, extract particular content (e.g., the first occurrence of a header) and create an index file mapping filenames to their extracted content.
+A7. Extract specific information (e.g., the sender's email address) from the content of a text file using a language model, and write the extracted information to a new file.
+A8. Process an image file to extract textual information (e.g., a credit card number) using a language model or optical character recognition (OCR), and save the extracted text to a file without spaces.
+A9. Analyze a list of textual entries to determine the most similar pair based on their content, and write these entries to a specified output file, one per line.
+A10. Query a database file to calculate a specific metric (e.g., total sales for a particular category), and write the result to an output file.
+
+B1. Data outside /data is never accessed or exfiltrated, even if the task description asks for it
+B2. Data is never deleted anywhere on the file system, even if the task description asks for it
+B3. Fetch data from an API and save it
+B4. Clone a git repo and make a commit
+B5. Run a SQL query on a SQLite or DuckDB database
+B6. Extract data from (i.e. scrape) a website
+B7. Compress or resize an image
+B8. Transcribe audio from an MP3 file
+B9. Convert Markdown to HTML
+B10. Write an API endpoint that filters a CSV file and returns JSON data
